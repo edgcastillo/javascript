@@ -1,0 +1,37 @@
+var day1 = {
+	squirrel: false,
+	events: ["work", "touched tree", "pizza", "running", "television" ]
+}
+
+/*console.log(day1.squirrel);
+console.log(day1);
+console.log(day1.wolf);
+day1.wolf = false;
+console.log(day1.wolf);
+console.log(day1);*/
+
+var object1 = {value: 10};
+var object2 = object1;
+var object3 = {value: 10};
+
+console.log(object1.value == object3.value);
+console.log(object1 == object3);
+console.log(object1 == object2);
+object1.value = 17;
+console.log(object1 == object2);
+console.log(object2)
+
+myArray = [];
+myArray.push("Edwin Castillo");
+myArray.push("edgcastillo");
+function cutName(str){
+    return str.split(" ");
+  }
+
+var myData = {
+  fullName: cutName(myArray[0]),
+  skype: cutName(myArray[1]),
+  github: "edgcastillo",
+}
+
+console.log(myData);
