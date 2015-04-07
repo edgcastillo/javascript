@@ -8,9 +8,12 @@
   when one is true, the other is false. 
 */
 
+//Working in factorization
+
 // Correlation of Tempatures(tempC) and Ice Cream Sales(sales)
 var tempC =[14.2,16.4,11.9,15.2,18.5,22.1,19.4,25.1,23.4,18.1,22.6,17.2];
 var iceCreamSales =[215,325,185,332,406,522,412,614,544,421,445,408];
+
 
 function calculateMeanA(arr){
 	count = 0
