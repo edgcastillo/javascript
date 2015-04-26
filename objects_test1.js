@@ -35,3 +35,26 @@ var myData = {
 }
 
 console.log(myData);
+
+
+var person ={
+	name:'edwin',
+	sex:'M',
+	age:'36',
+}
+for(var key in person){
+	console.log(person[key]);
+}
+person.name = "Manuel";
+person['age'] = 83;
+for(var key in person){
+	console.log(person[key]);
+}
+var newPerson = {}
+newPerson.name = "Ender";
+
+var arr = []
+arr['cat'] = 1
+arr['0'] = "yes"
+console.log(arr['cat']);
+console.log(arr[0]);
